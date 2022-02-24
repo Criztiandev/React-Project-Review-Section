@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React-Project-Review-Section/static/css/main.351ce5ab.css",
+    "main.js": "/React-Project-Review-Section/static/js/main.9d322f12.js",
+    "index.html": "/React-Project-Review-Section/index.html",
+    "main.351ce5ab.css.map": "/React-Project-Review-Section/static/css/main.351ce5ab.css.map",
+    "main.9d322f12.js.map": "/React-Project-Review-Section/static/js/main.9d322f12.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.351ce5ab.css",
+    "static/js/main.9d322f12.js"
+  ]
+}
