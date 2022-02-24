@@ -1,0 +1,185 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  ---primary-color : #265ed6;
+  ---secondary-color :#eaf0ff;
+  ---font-color : black;
+
+}
+
+.App {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background: #f0f0f0fa;
+}
+
+header{
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.title{
+  color: var(---primary-color);
+}
+
+.review-container{
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 45px #b8b8b8;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  text-align: center;
+
+  width: 700px;
+
+  padding: 2rem;
+}
+
+
+.user-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+img{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.user-info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-description{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 1rem;
+
+  text-transform: capitalize;
+}
+
+.name{
+  font-size: 1.6rem;
+}
+.job{
+  color: #00000080;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.rating{
+  width: 16%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.rating > svg{
+  font-size: 2rem;
+  color: #E9A51D;
+}
+
+.user-comment{
+
+  border: 1px solid rgba(230, 230, 230, 0.657);
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+
+  border-radius: 10px;
+  line-height: 1.7rem;
+}
+
+button{
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.btns{
+  width: 100%;
+}
+
+.reaction{
+  margin-left: 90%;
+  margin-bottom: 1rem;
+}
+
+.reaction > button{
+  cursor: pointer;
+  width: 70%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.like-count{
+  background-color: #265ed642;
+  color: var(---primary-color);
+
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.heart{
+  color: var(---primary-color);
+  font-size: 2rem;
+}
+
+.pagination{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination > button{
+  color: var(---primary-color);
+  background: none;
+  border: none;
+  font-size: 2.5rem;
+
+  margin: 0rem 1rem;
+}
+
+.random{
+  font-size: 2rem;
+}
+
+
+@media (max-width: 765px) {
+  .review-container{
+    padding: 1rem;
+    width: 450px;
+  }
+
+  .rating{
+    width: 25%;
+  }
+}
